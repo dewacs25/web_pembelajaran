@@ -1,0 +1,71 @@
+
+@import "https://unpkg.com/swiper/swiper-bundle.min.css";
+.active{
+  border-bottom: 1px solid black;
+}
+.hover:hover{
+  border-bottom: 1px solid black;
+}
+
+
+.swiper-container {
+  margin: 0 auto;
+  /* max-width: 100%; */
+  text-align: center;
+}
+
+.wrapper{
+  max-height: 250px;
+  min-height: 190px;
+  /* border: 1px solid #ddd; */
+  display: flex;
+  overflow-x: scroll;
+  cursor: e-resize;
+  overflow: hidden;
+  
+}
+.wrapper::-webkit-scrollbar{
+  width: 0;
+}
+.wrapper .item{
+  min-height: 110px;
+  height: 110px;
+}
+
+#header{
+  
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+  transition: top .3s ease;
+}
+#header.show{
+  top: -70px;
+}
+
+
+
+/* === Google Font Import - Poppins === */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+.set{
+  position: relative;  
+  /* height: 450px;
+  width: 1075px; */
+  display: flex;
+  align-items: center;
+}
+.opa p{
+  font-size: 12px;
+}
+
+.isiii p img{
+  min-width: 100%;
+  max-width: 100%;
+}
+
+
+
+
